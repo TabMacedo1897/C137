@@ -1,8 +1,21 @@
 {"intents": [
-  {"tag": [],
-   "patterns": [],
-   "responses": []
+  {"tag": "saudacao",
+   "patterns": ["Olá", "Como você está", "Oi", "E ai"],
+   "responses": ["Olá, como posso ajudá lo hoje?"]
   },
+  {"tag": "despedida",
+  "patterns": ["Tchau", "Valeu"], 
+  "responses": ["Volte sempre"]
+  },
+  {"tag": "agradecimento", 
+  "patterns": ["Obrigado", "Muito obrigado", "Isso foi útil"], 
+  "responses": ["Fico feliz em ajudar"]
+  }, 
+  {"tag": "sem_resposta", 
+  "patterns": [""], 
+  "responses": ["Por favor, me dê mais informações", "Desculpe, não consegui entender"]
+  }
+
 ]
 }
 
